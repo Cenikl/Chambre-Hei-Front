@@ -1,0 +1,385 @@
+body {
+  background:url("./images/bg.jpg")no-repeat, rgba(12, 74, 98, 0.8);
+  background-size: cover;
+  background-blend-mode:darken;
+  margin-top: 0;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0,0.5);
+  width: 100%;
+  height: 8%;
+  border-radius: 2px;
+}
+#fimg {
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+}
+.head a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Droid Serif";
+  margin: auto;
+  margin-left: 5px;
+}
+.head a:hover {
+  color: black;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.tocrete {
+  margin-right: 10px;
+  margin-top: 8px;
+  height: 71px;
+  background: whitesmoke;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-left: 1px solid black;
+  border-radius: 3px;
+}
+.tocrete:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.head button{
+  width: 150px;
+  background-color: rgba(0, 0, 0,0.3);
+  border: 0;
+  border-left: 1px solid black;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Droid Serif";
+}
+.fbtn {
+  height: 100%;
+}
+.head button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.lbtn {
+  margin-left: auto;
+  margin-right: 25px;
+  height: 71px;
+  background-color: rgba(255, 255, 255,0.5);
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-left: 1px solid black;
+}
+.lbtn:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+.btn {
+  height: 71px;
+  background-color: rgba(255, 255, 255,0.5);
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-left: 1px solid black;
+}
+.btn:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+
+.middlecard {
+  height: 96%;
+  width: 96%;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fline{
+  display: flex;
+  flex-direction: row;
+}
+.fline h1 {
+  color: deepskyblue;
+  margin: auto;
+}
+.middlecard hr {
+  box-shadow: rgba(0, 0, 0,0.3) 0px 2px 1px;
+}
+.tobook {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 8px;
+  height: 71px;
+  background: whitesmoke;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-left: 1px solid black;
+  border-radius: 3px;
+}
+.tobook:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.content {
+  display: flex ;
+  flex-direction: row;
+}
+.image-in img {
+  height: 410px;
+  width: 450px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.contenttalkone {
+  display: flex;
+  flex-direction: row;
+}
+.contenttalktwo {
+  display: flex;
+  flex-direction: row;
+}
+.contenttalkone {
+  font-family: "Droid Serif";
+  font-size: 21px;
+  padding-left: 40%;
+}
+.contenttalktwo {
+  font-family: "Droid Serif";
+  font-size: 21px;
+  padding-left: 30%;
+}
+
+.contenttalkone img {
+  height: 50px;
+  width: 50px;
+}
+.contenttalktwo img {
+  height: 40px;
+  width: 40px;
+}
+.contenttalk p {
+  font-family: "Roboto";
+  margin-left: 15px;
+  font-size: 21px;
+}
+.contenttalk h3 {
+  margin-left: 15px;
+}
+#test {
+  padding-top: 15px ;
+}
+.last {
+  display: flex;
+  flex-direction: row;
+}
+#rooming {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  width: 20%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 7px;
+  background-color: black;
+  margin: 5px auto auto;
+}
+#rooming:hover{
+  color: black;
+  background-color: white;
+}
+#brooking {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  width: 20%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 7px;
+  background-color: black;
+  margin: 5px auto auto;
+}
+#brooking:hover {
+  color: black;
+  background-color: white;
+}
+.infoTable {
+  font-family: Impact, Charcoal, sans-serif;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.infoTable td, table.infoTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.infoTable tbody td {
+  font-size: 18px;
+}
+.infoTable tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.38);
+}
+.infoTable thead {
+  background-color: rgba(0, 0, 0,0.7);
+  border-bottom: 2px solid #444444;
+}
+.infoTable thead th {
+  font-size: 25px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+.infoTable thead th:first-child {
+  border-left: none;
+}
+.infoTable tfoot {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  background: #D8EDFF;
+  border-top: 2px solid #3B3B3B;
+}
+.infoTable tfoot td {
+  font-size: 15px;
+}
+.infoTable tfoot .links {
+  text-align: right;
+}
+.infoTable tfoot .links a{
+  display: inline-block;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.todeleteroom {
+  background: rgba(255, 0, 0, 0.77);
+  color: white;
+  margin-right: 10px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-radius: 3px;
+}
+.todeleteroom:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.toupdateroom {
+   background: rgb(0, 178, 255);
+   color: white;
+   font-size: 20px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+   font-family: "Droid Serif";
+   border: 0;
+   border-radius: 3px;
+ }
+.toupdateroom:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.toviewroom {
+  background: #21f643;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Droid Serif";
+  border: 0;
+  border-radius: 3px;
+}
+.toviewroom:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 40%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 7px;
+  background-color: black;
+  margin: 5px auto auto;
+}
+.button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+.modal.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 7px;
+  transform: translateY(-200px);
+  transition: all 0.3s ease-in-out;
+}
+.modal.show .modal-content {
+  transform: translateY(0);
+}
+.modal-header, .modal-footer {
+  paading: 10px
+}
+.modal-title {
+ text-align: center;
+}
+.modal-body {
+  padding: 10px;
+  border-top:1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.modal-body input{
+  width: 95%;
+  height: 35px;
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+}
