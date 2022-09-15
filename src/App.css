@@ -236,12 +236,14 @@ body {
 .infoTable tbody td {
   font-size: 18px;
 }
-.infoTable tr:nth-child(even) {
-  background: rgba(0, 0, 0, 0.38);
-}
 .infoTable thead {
   background-color: rgba(0, 0, 0,0.7);
   border-bottom: 2px solid #444444;
+}
+#goodans {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Droid Serif";
 }
 .infoTable thead th {
   font-size: 25px;

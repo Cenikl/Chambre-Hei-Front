@@ -3,6 +3,7 @@ import '../App.css';
 import axios from "axios";
 import Modal from "./modal"
 
+
 export default function Room(){
     const [roomsList,setRoomsList] = useState([]);
     const ROOMS_API_REST_URL = "http://localhost:8080/rooms"
@@ -39,7 +40,7 @@ export default function Room(){
             <Modal onClose={() => {setShow(false)}} show={show} />
             <div className="fline">
             <h1>List of free rooms</h1>
-                <button className="tobook" onClick={getAllRooms}>Get all rooms</button>
+                <button className="tobook" onClick={getAllRooms}>Refresh</button>
                 <button className="tocrete" onClick={() => {setShow(true)}}>Create a new room</button>
             </div>
             <hr/>
@@ -74,7 +75,7 @@ export default function Room(){
                             <button className="todeleteroom" onClick={() => {
                                 // @ts-ignore
                                 deleteRoomByid(id.toString())}}>Delete</button>
-                            <button className="toviewroom" onClick={() => {setShow(true)}}>View</button>
+                            <button className="toviewroom" onClick={() => {setShow(true)}}>Update</button>
                         </td>
                     </tr>
                 ))}
